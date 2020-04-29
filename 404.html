@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Page Not Found</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Bitter|Cabin|Domine|Titillium+Web&display=swap');
+    * {
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    html {
+      color: white;
+      display: table;
+      font-family: 'Titillium Web', sans-serif;
+      height: 100%;
+      text-align: center;
+      width: 100%;
+    }
+
+    body {
+      display: table-cell;
+      vertical-align: middle;
+      margin: 2em auto;
+      background: url("img/starBG.jpg") center center fixed repeat;
+      background-size: cover;
+    }
+
+    h1 {
+      color: white;
+      font-size: 2em;
+      font-weight: 400;
+      font-family: 'Bitter', serif;
+    }
+
+    p {
+      margin: 0 auto;
+      width: 280px;
+    }
+
+    #wats{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 40%;
+      height: auto;
+    }
+
+    #sal{
+      position: absolute;
+      left: -6%;
+      top: 50%;
+
+    }
+
+    #diam{
+      position: absolute;
+      left: 10%;
+      top: 0;
+    }
+
+    @media only screen and (max-width: 900px) {
+
+      body,
+      p {
+        width: 95%;
+      }
+
+      h1 {
+        font-size: 1.5em;
+        margin: 0 0 0.3em;
+      }
+
+      #sal, #diam{
+        display: none;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <h1>404</h1>
+  <p>Uh Oh! Looks like you found our secret astrodog program. Try not to stare for too long, they get performance anxiety. Don't tell anyone about them either!</p>
+  <img id="diam" src="img/astro-diamond.png" alt="A brown dog with a black nose is in a space suit"></img>
+  <img id="sal" src="img/astro-sally.png" alt="A gray dog and white schnauzer is in a space suit" />
+  <img id="wats" src="img/astro-watson.png" alt="A reddish brown cockapoo is wearing an astronaut helmet" />
+
+</body>
+
+</html>
+<!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->

@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Cassidy Jensen> -- <Web Developer> -- <GitHub Username: CassidyJensen>
+
+# THANKS
+
+    <David Schaal>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, Gulp.js, Sass, Node.js, GitHub
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
