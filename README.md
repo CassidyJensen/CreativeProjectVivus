@@ -5,6 +5,7 @@ This project is an about me page with little svg animations that relate to the t
 ## Resources
 
 About [Vivus](http://maxwellito.github.io/vivus/)
+
 Vivus [Github](https://github.com/maxwellito/vivus)
 
 
@@ -17,15 +18,17 @@ Note: I added all of the svg code into the html file rather than importing it in
 
 The sample generator provided for vivus does not recognize brush strokes as a type of path. If you are using that to generate your svg code, it will only animate the straight lines & objects. It will ignore your brush strokes. To fix this issue you will have to edit the svg code and add the following line to each path tag you want to animate.  
 
-```data-async data-start="0" data-duration="200" class="st0"
+```html
+data-async data-start="0" data-duration="200" class="st0"
 ```
 It should look something like this: 
 
-```<g>
+```html
+<g>
       <path data-async data-start="0" data-duration="200"
     class="st5" d="M116.3,74c-0.5,8,3.2,16.4,7.9,22.8c4.9,6.6,13.1,9.8,17.6,16.8c1.8,2.7,6.1,0.2,4.3-2.5c-3.9-5.9-9.6-9.1-14.7-13.7
         c-6-5.5-10.7-15-10.2-23.2C121.5,70.8,116.5,70.8,116.3,74L116.3,74z"/>
-    </g>
+</g>
 ```
 
 Data-start, data-duration, and class are all changable for the specific context. 
