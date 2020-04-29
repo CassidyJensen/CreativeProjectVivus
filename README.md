@@ -19,6 +19,7 @@ Note: I added all of the svg code into the html file rather than importing it in
 The sample generator provided for vivus does not recognize brush strokes as a type of path. If you are using that to generate your svg code, it will only animate the straight lines & objects. It will ignore your brush strokes. To fix this issue you will have to edit the svg code and add the following line to each path tag you want to animate.  
 
 ```html
+
 data-async data-start="0" data-duration="200" class="st0"
 ```
 It should look something like this: 
